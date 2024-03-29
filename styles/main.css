@@ -46,6 +46,10 @@ main{
     
 }
 
+#dash,#dash2{
+    display: none;
+}
+
 footer p{
     text-align: center;
     color: white;
@@ -62,8 +66,17 @@ footer p{
         flex-direction: column;
      }
      
+     
      .digitalclock{
         display: flex;
         flex-direction: column;
      }
+
+     #colon1, #colon2{
+        display: none;
+     }  
+     #dash,#dash2{
+        display: block;
+     }
+     
 }
