@@ -1,9 +1,26 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(4, 62, 4);
+}
 
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+   
+}
+
+header{
+    border-bottom: solid 1px white;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+header h2{
+    padding: 1em;
 }
 
 main{
@@ -11,10 +28,32 @@ main{
     flex-direction: column;
     margin: auto 0;
     align-items: center;
+    
+}
+
+.container{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    
+    
 }
 
 .digitalclock{
     display: flex;
     flex-direction: row;
     gap: .25em;
+    
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 767px){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
 }
