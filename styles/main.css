@@ -54,6 +54,16 @@ footer p{
 @media (max-width: 767px){
     body{
         display: flex;
-        flex-direction: row;
+        flex-direction: column
     }
+
+     main{
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .digitalclock{
+        display: flex;
+        flex-direction: column;
+     }
 }
